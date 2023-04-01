@@ -1,0 +1,17 @@
+install.packages("devtools")
+install.packages("roxygen2")
+create R folder with R files
+create DESCRIPTION file
+run roxygenise()
+load_all() to load package from current project
+create "notebook" folder to ignore
+add notebook* to .Rbuildignore file
+run "git init" in project folder
+create similarly named repository on github
+run "git remote add origin https://github.com/pinkmongoose/PinkAverage.git" or similar
+
+git push -u origin main
+
+
+
+git update-git-for-windows
