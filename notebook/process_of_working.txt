@@ -1,5 +1,7 @@
 install.packages("devtools")
 install.packages("roxygen2")
+remotes::install_github("r-lib/desc")
+
 create R folder with R files
 create DESCRIPTION file
 run roxygenise()
@@ -11,7 +13,10 @@ create similarly named repository on github
 run "git remote add origin https://github.com/pinkmongoose/PinkAverage.git" or similar
 
 git push -u origin main
-
+git add *
+git commit -m "something"
+git push
 
 
 git update-git-for-windows
+

@@ -1,5 +1,23 @@
-Package: SCCTempConverter
+Package: PinkAverage
 Type: Package
-Title: Temperature Conversion Package for Demonstration
+Title: Calculate various different types of averages
 Version: 0.0.1.0
+Author: Darren Green [aut, cre] (<https://orcid.org/0000-0001-9026-5675>)
+Maintainer: Darren Green <darren.green@stir.ac.uk>
+Description: Individual functions for various types of means or averages, and function factories for creating families of means such as  Gini, Holder, and Lehmer means.
+License: `use_gpl_license()`
 RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
+Collate: 
+    'PinkAverage-package.r'
+    'Bivariate.r'
+    'Frechet.r'
+    'Gini.r'
+    'SummaryStats.r'
+    'Kolmogorov.r'
+    'Lehmer.r'
+    'Lestimators.r'
+    'MiscAverages.r'
+    'Modular.r'
+    'Truncated.r'
